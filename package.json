@@ -1,6 +1,6 @@
 {
-    "name": "@bacharSalleh/mylib_22",
-    "version": "1.0.8",
+    "name": "@bacharsaleh/mylib_22",
+    "version": "1.0.9",
     "description": "",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
