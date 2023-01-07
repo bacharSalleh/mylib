@@ -1,12 +1,16 @@
 {
     "name": "@bacharSalleh/mylib_22",
-    "version": "1.0.4",
+    "version": "1.0.0",
     "description": "",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "scripts": {
         "rollup": "rimraf dist && rollup -c",
         "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bacharSalleh/mylib.git"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/bacharSalleh"
