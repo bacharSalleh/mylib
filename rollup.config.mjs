@@ -2,6 +2,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
+import terser from "@rollup/plugin-terser";
 
 // import packageJson from "./package.json" assert { type: "json" };
 import { readFileSync } from "fs";
@@ -27,6 +28,7 @@ export default [
             resolve(),
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
+            terser(),
         ],
     },
     {
