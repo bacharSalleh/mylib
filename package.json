@@ -12,9 +12,6 @@
         "type": "git",
         "url": "https://github.com/bacharSalleh/mylib.git"
     },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/bacharSalleh"
-    },
     "keywords": [],
     "author": "bachar",
     "license": "ISC",
